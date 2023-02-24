@@ -11,8 +11,8 @@
 
 .secondary-section {
   background-image: url(../../../assets/img/main-section.jpg);
-  background-size: contain;
-  background-repeat: repeat-y;
+  background-size: cover;
+  background-repeat: no-repeat;
   min-height: 100vh;
   scroll-behavior: smooth;
   padding-top: 100px;
