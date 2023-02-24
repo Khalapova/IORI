@@ -1,0 +1,163 @@
+.main-section {
+  background-image: url(../../../assets/img/mainbg.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.secondary-section {
+  background-image: url(../../../assets/img/main-section.jpg);
+  background-size: contain;
+  background-repeat: repeat-y;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 200px;
+}
+
+.productImg {
+  position: relative;
+  block-size: 500px;
+}
+
+.product-composition-wrapper {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.product-composition h4 {
+  margin-bottom: 35px;
+  font-size: 22px;
+}
+
+.product-composition,
+.product-energy {
+  text-align: center;
+}
+
+.product-energy h4 {
+  font-size: 22px;
+}
+
+.product-energy table tr {
+  font-size: 22px;
+}
+
+.product-energy table {
+  height: 100%;
+  border: 2px solid #000;
+  border-radius: 8px;
+  padding: 60px;
+}
+
+.composition-1 composition-2 {
+  float: left;
+  width: 50%;
+}
+
+.desc-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.product-description-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.product-description {
+  font-size: 30px;
+  min-width: 350px;
+  font-weight: 700;
+  text-align: center;
+  flex: 1;
+  margin-bottom: 60px;
+}
+
+.pepper1 {
+  width: 270px;
+  rotate: 155deg;
+}
+
+.pepper2 {
+  width: 270px;
+  margin-bottom: 54px;
+}
+
+.sutability {
+  margin-left: 600px;
+  margin-bottom: 50px;
+}
+
+.chili {
+  max-width: 30px;
+}
+
+.two-columns {
+  columns: 3;
+  list-style: inside;
+}
+
+.peppers {
+  max-width: 120px;
+}
+
+.fenugreek {
+  max-width: 120px;
+}
+
+.basil {
+  max-width: 120px;
+}
+
+.khmeli {
+  max-width: 120px;
+}
+
+.garlic {
+  max-width: 120px;
+}
+
+.salt {
+  max-width: 120px;
+}
+
+.food-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.food-container h1 {
+  white-space: nowrap;
+  margin: 0 5rem;
+  font-size: 50px;
+}
+
+.kebab {
+  max-width: 600px;
+}
+
+.chicken {
+  max-width: 550px;
+}
+
+.soup {
+  max-width: 600px;
+}
+
+.fish {
+  max-width: 650px;
+}
+
+.cheese {
+  max-width: 700px;
+}

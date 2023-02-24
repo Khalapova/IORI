@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* @font-face {
+  font-family: 'Slang Personal';
+  src: url('./assets/fonts/Slang_Personal_use.otf') format('opentype');
+} */
+
+@font-face {
+  font-family: 'ShantellSans';
+  src: url('./assets/fonts/ShantellSans-Regular.ttf') format('truetype');
+}
+
+body {
+  font-family: 'ShantellSans', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-size: 20px;
+}
